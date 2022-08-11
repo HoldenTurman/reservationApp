@@ -1,2 +1,36 @@
-# reservationApp
- Thinkful final capstone.
+<h1>Thinkful Capstone: Restaurant Reservation System</h1>
+<br>
+<br>
+
+A full stack web application created as the final capstone for Thinkful's Full Stack Engineering Flex bootcamp program. This project connects to a database to implement the CRUD API for setting up reservations.
+
+
+Deployed version: https://gentle-meadow-06123.herokuapp.com
+
+<h2>Usage</h2>
+
+npm i<br>
+npm start<br>
+Servers will start on localhost:3000 and localhost:5000 for the client and server respectively.<br>
+
+<h2>Technologies Used</h2>
+<h3>Front-end:</h3>
+<ul>
+ <li>Javascript</li>
+ <li>ReactJS</li>
+ <li>CSS3</li>
+ <li>Bootstrap</li>
+ <li>HTML</li>
+</ul>
+
+<h3>Back-end:</h3>
+<ul>
+ <li>Node.js</li>
+ <li>Express.js</li>
+ <li>PostgreSQL</li>
+ <li>Knex</li>
+</ul>
+
+<h2>Credits</h2>
+Thinkful Ed. created the starter repository for this project, which consists of the E2E tests and boilerplate.
+Starter repository: https://github.com/Thinkful-Ed/starter-restaurant-reservation
