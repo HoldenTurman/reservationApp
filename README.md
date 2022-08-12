@@ -3,7 +3,7 @@ A full stack web application created as the final capstone for Thinkful's Full S
 <br>
 <br>
 
-Deployed version: https://restaurant-periodic-tables.herokuapp.com/dashboard
+Deployed version: https://gentle-meadow-06123.herokuapp.com/dashboard
 
 <h2>Usage</h2>
 npm i<br>
