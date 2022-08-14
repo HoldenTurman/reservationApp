@@ -226,8 +226,8 @@ module.exports = {
   reservationExists: [asyncErrorBoundary(reservationExists)],
   updateStatus: [
     asyncErrorBoundary(reservationExists),
-    validStatus,
-    notFinished,
+    asyncErrorBoundary(validStatus),
+    asyncErrorBoundary(notFinished),
     asyncErrorBoundary(updateStatus),
   ],
   updateRes: [
