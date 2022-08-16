@@ -68,8 +68,8 @@ function Dashboard({ date }) {
           type="button"
           className="btn btn-outline-primary mx-2 my-2"
           onClick={() => {
-            history.push(`/dashboard?date=${previous(date)}`);
-            setCurrentDate(previous(date));
+            history.push(`/dashboard?date=${previous(currentDate)}`);
+            setCurrentDate(previous(currentDate));
           }}
         >
           Previous
@@ -88,8 +88,8 @@ function Dashboard({ date }) {
           type="button"
           className="btn btn-outline-primary mx-2 my-2"
           onClick={() => {
-            history.push(`/dashboard?date=${next(date)}`);
-            setCurrentDate(next(date));
+            history.push(`/dashboard?date=${next(currentDate)}`);
+            setCurrentDate(next(currentDate));
           }}
         >
           Next
