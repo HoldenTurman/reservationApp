@@ -46,7 +46,7 @@ function ReservationForm({ submitHandle, changeHandle, form, cancelLink }) {
         <input
           id="mobile_number"
           className="form-control"
-          type="tel"
+          type="number"
           placeholder="(---) --- ----"
           name="mobile_number"
           onChange={changeHandle}
@@ -86,6 +86,8 @@ function ReservationForm({ submitHandle, changeHandle, form, cancelLink }) {
           onChange={changeHandle}
           value={form.reservation_time}
           required
+          max="21:30:00"
+          min="10:30:00"
         />
       </div>
       <div>
