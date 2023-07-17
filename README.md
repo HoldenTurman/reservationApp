@@ -3,10 +3,6 @@ A full stack web application created as the final capstone for Thinkful's Full S
 <br>
 <br>
 
-Deployed version: https://gentle-meadow-06123.herokuapp.com/dashboard
-
-Server Link: https://calm-beyond-71436.herokuapp.com/tables
-
 
 <h2>Technologies Used</h2>
 <h3>Front-end:</h3>
