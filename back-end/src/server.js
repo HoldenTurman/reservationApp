@@ -1,5 +1,5 @@
 const { PORT = 5001 } = process.env;
-const app = require("./src/app");
+const app = require("./app"); // <-- no ./src
 const knex = require("./db/connection");
 
 knex.migrate
@@ -13,4 +13,5 @@ knex.migrate
     console.error(error);
     knex.destroy();
   });
+
 
