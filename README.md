@@ -1,28 +1,45 @@
-<h1>Thinkful Capstone: Restaurant Reservation System</h1>
-A full stack web application created as the final capstone for Thinkful's Full Stack Engineering Flex bootcamp program. This project connects to a database to implement the CRUD API for setting up reservations.<br>
-<br>
-<br>
+# ReservationApp
 
+**Thinkful Final Capstone — Restaurant Reservation System**
 
-<h2>Technologies Used</h2>
-<h3>Front-end:</h3>
-<ul>
-<li>Javascript</li>
-<li>ReactJS</li>
-<li>CSS3</li>
-<li>Bootstrap</li>
-<li>HTML</li>
-</ul>
+A full-stack web application built as the capstone project for Thinkful’s Full Stack Engineering Flex program. This app provides a reservation management system that integrates a frontend UI with a backend API to handle CRUD operations for reservations.
 
+---
 
-<h3>Back-end:</h3>
-<ul>
-<li>Node.js</li>
-<li>Express.js</li>
-<li>PostgreSQL</li>
-<li>Knex</li>
-</ul>
+## Table of Contents
 
-<h2>Credits</h2>
-Thinkful Ed. created the starter repository for this project, which consists of the E2E tests and boilerplate.<br>
-Starter repository: https://github.com/Thinkful-Ed/starter-restaurant-reservation
+1.  
+2. [Features](#features)  
+3. [Tech Stack](#tech-stack)  
+4. [Getting Started](#getting-started)  
+   - [Prerequisites](#prerequisites)  
+   - [Installation](#installation)  
+   - [Running the App](#running-the-app)  
+5. [API Endpoints](#api-endpoints)  
+6. [Folder Structure](#folder-structure)  
+7. [Testing](#testing)  
+8. [Contributing](#contributing)  
+9. [License](#license)  
+10. [Credits](#credits)  
+
+---
+
+## Features
+
+- Create, read, update, and delete (CRUD) reservations  
+- Validate reservation data (dates, times, number of people)  
+- Responsive UI using React & Bootstrap  
+- Real-time updates using API calls  
+- PostgreSQL database-backed persistence  
+- Error handling and user feedback for invalid inputs  
+
+---
+
+## Tech Stack
+
+- **Frontend**: React.js, JavaScript, Bootstrap, HTML, CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: PostgreSQL, Knex.js  
+
+---
+
